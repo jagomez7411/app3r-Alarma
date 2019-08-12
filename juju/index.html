@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alarma - 24Hs</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"><!-- hola mundo-->
+</head>
+<body>
+	<form class="form">
+		<input type="number" max="23" min="0" id="horas" placeholder="Hora">
+		<input type="number" max="59" min="0" id="minutos" placeholder="Minutos">
+		<input type="number" max="59" min="0" id="segundos" placeholder=" Segundos">
+		<input type="button" id="programar" value="Iniciar">
+	</form>
+	<div class="alarma">
+		<div class="numeros">
+			<div id="h"></div>
+			<div class="puntos">:</div>
+			<div id="m"></div>
+			<div class="puntos">:</div>
+			<div id="s"></div>
+		</div>
+	</div>
+    <div>
+		<div id="buttons">
+			<span>
+				<button id="stop"><a href="../index.html">Cancelar Alarma</a></button>
+			</span>
+		</div>
+    </div>	<audio id="audio" src="audio.mp4"></audio>
+<script src="script.js"></script>
+
+</body>
+</html>

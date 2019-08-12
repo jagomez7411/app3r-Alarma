@@ -1,0 +1,79 @@
+* {
+	font-family: "tarea";
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "tarea";
+	src: url("../fuentes/AbsolutePink-PersonalUse.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	background: url(../img/fondo4.jpg);
+	background-size: 100%;
+}
+
+#duno {
+	width: 100%;
+}
+
+#ddos {
+	width: 100%;
+	margin: 2em;
+}
+
+#ddos p {
+	display: inline-block;
+	line-heigth: 1em;
+}
+
+.fecha {
+	 text-align: center;
+	 font-size:60px;
+	 margin-buttom: 0.3125rem;
+	 background: rgba(0,0,0,.5);
+	 width: 100%;
+	 color: #CCC;
+}
+
+.reloj {
+	width: 100%;
+	color: #CCC;
+	font-size:4em;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+}
+
+.reloj .caja-segundos {
+	display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+	font-size: 2rem;
+	display: block;
+}
+#todo>div nav ul li a {
+	color: #F0F;
+	text-decoration: none;
+	font-size:50px;
+}
+#todo #duno #ddos{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+#todo #duno {
+	margin:auto;
+	text-align:center;
+}
+#todo {
+	text-align: center;
+	margin: auto;
+}
+#hola {
+	background: rgba(0,0,0,.5);
+}
